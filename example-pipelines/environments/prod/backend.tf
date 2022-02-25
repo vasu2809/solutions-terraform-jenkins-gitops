@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "sap-deployments-nonprod-tfstate"
     prefix = "env/prod"
   }
 }
